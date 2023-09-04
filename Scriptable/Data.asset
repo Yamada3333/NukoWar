@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1139d08cae5a2624ea39bde9918bee5f, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  allUnits:
+  - {fileID: 11400000, guid: 83314f744b7e21349aab0971e8413218, type: 2}
+  - {fileID: 11400000, guid: cf44b2c8e968c9541b8cf82cf499ca60, type: 2}
+  - {fileID: 11400000, guid: 2c5e71238ac6ca54a9aaa6f7225c8a77, type: 2}
+  - {fileID: 11400000, guid: b630859c137115a4f8f0d025c28079d0, type: 2}
+  - {fileID: 11400000, guid: 6e710d78e1f390c47911dc8cce2de84e, type: 2}
+  - {fileID: 11400000, guid: 4a199b27f5505be4589d4e7487c79b85, type: 2}
+  selectedUnits:
+  - {fileID: 11400000, guid: 83314f744b7e21349aab0971e8413218, type: 2}
+  - {fileID: 11400000, guid: cf44b2c8e968c9541b8cf82cf499ca60, type: 2}
+  - {fileID: 11400000, guid: 2c5e71238ac6ca54a9aaa6f7225c8a77, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  maxMoney: 1000
+  currentMoney: 100
+  recoveryMoney: 100
+  moneyRecoveryTime: 4
+  currencyUnit: "\u30A8\u30F3"
+  currentStage: {fileID: 11400000, guid: 332d65dea2c308c49bb2075a78adb170, type: 2}
+  allStage:
+  - {fileID: 11400000, guid: 332d65dea2c308c49bb2075a78adb170, type: 2}
+  - {fileID: 11400000, guid: c56816b61a569e14a9f0c55decfe0c5e, type: 2}
+  - {fileID: 11400000, guid: 37fe1c7a2c9c935469789bafaf57a9bb, type: 2}
+  - {fileID: 11400000, guid: d43f6746725f1a74cb27dabb70944891, type: 2}
+  - {fileID: 11400000, guid: 5212b02ffbbfc654e9904443beb86bc9, type: 2}
+  - {fileID: 11400000, guid: 34f0f03f28f7e484aa3cd92a34c57aec, type: 2}

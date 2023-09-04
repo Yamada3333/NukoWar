@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda3609984a878a449ff25969fec753d, type: 3}
+  m_Name: Stage 3
+  m_EditorClassIdentifier: 
+  stageName: "\u30B9\u30C6\u30FC\u30B83"
+  faves:
+  - units:
+    - {fileID: 11400000, guid: 83314f744b7e21349aab0971e8413218, type: 2}
+    spawnTime: 0
+  - units:
+    - {fileID: 11400000, guid: 83314f744b7e21349aab0971e8413218, type: 2}
+    - {fileID: 11400000, guid: 83314f744b7e21349aab0971e8413218, type: 2}
+    spawnTime: 8
+  - units:
+    - {fileID: 11400000, guid: 83314f744b7e21349aab0971e8413218, type: 2}
+    - {fileID: 11400000, guid: cf44b2c8e968c9541b8cf82cf499ca60, type: 2}
+    spawnTime: 8
+  - units:
+    - {fileID: 11400000, guid: 83314f744b7e21349aab0971e8413218, type: 2}
+    - {fileID: 11400000, guid: cf44b2c8e968c9541b8cf82cf499ca60, type: 2}
+    spawnTime: 8
+  unlimitedFave:
+    units:
+    - {fileID: 11400000, guid: 83314f744b7e21349aab0971e8413218, type: 2}
+    spawnTime: 16
